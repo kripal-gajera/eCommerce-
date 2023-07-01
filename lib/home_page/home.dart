@@ -39,6 +39,7 @@ class _HomeState extends State<Home> {
         onTap: (int newIndex) {
           setState(() {
             index = newIndex;
+            print(newIndex);
           });
         },
       ),
